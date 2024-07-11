@@ -1,0 +1,371 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Nav Styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.nav-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 24px;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: white;
+}
+
+/* Hero Section */
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    padding: 100px 20px;
+    background: url('../assets/Hero-bg.png') no-repeat center center;
+    background-size: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 50px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.hero-img {
+    margin-bottom: 20px;
+}
+
+.hero-section h3 {
+    color: rgb(13, 19, 33);
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-contact {
+    background-color: black;
+    color: white;
+    border: none;
+    opacity: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Web Development Section Styles */
+
+.web-dev {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    border-radius: 8px;
+}
+
+.web-dev h3 {
+    color: #0d1321;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.web-dev p {
+    color: #0d1321;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.web-dev .card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.web-dev .card h4 {
+    color: #0d1321;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.web-dev .card p {
+    color: #0d1321;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.web-dev .card .btn {
+    background-color: #0d1321;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+}
+
+.web-dev .card .img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Current Target Section */
+
+.current-target {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.current-target h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.current-target p {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.target-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.target-item {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    height: 250px; /* Ensuring 1:1 ratio */
+    text-align: center;
+    flex: auto;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.target-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.target-item h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.target-item p {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.target-item a.learn-more {
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.target-item.html {
+    background-color: #ffecec;
+}
+
+.target-item.css {
+    background-color: #e8f1ff;
+}
+
+.target-item.js {
+    background-color: #fff5e6;
+}
+
+/* Next Target Section */
+
+.next-target {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.next-target h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.next-target p {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.next-target-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.next-item {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    text-align: left;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.next-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.next-item h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.next-item p {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.next-item a.learn-more {
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* support section */
+
+.support-box {
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+}
+
+.support-box img {
+    width: 100%;
+    height: auto;
+}
+
+.support-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;  /* Ensure text color is white */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.support-content p {
+    color: white;
+}
+
+.support-content h3 {
+    color: white;
+}
+
+.support-content form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.support-content input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.support-content button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* Comment Section */
+
+.comment-section ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.comment-section ul li {
+    margin: 0 10px;
+}
